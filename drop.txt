@@ -12974,14 +12974,13 @@ mgr.createDroplist(1523,{ -- droplist_books
 	dmgpreference = 0,
 	dmgprobability = 0,
 	entry0 = { --book_anatomy_ingeneral
-	--	weightedprob=2,
-	--	blueprint=2302, 
-	--},
-	--this book is broken and has no loca / content
-	--entry1 = { --book_anatomy_orcs
-	--	weightedprob=2,
-	--	blueprint=2313, 
-	--},
+		weightedprob=2,
+		blueprint=2302, 
+	},
+	entry1 = { --book_anatomy_orcs
+		weightedprob=2,
+		blueprint=2313, 
+	},
 	entry2 = { --book_food_ancientreciepes
 		weightedprob=2,
 		blueprint=2289,
@@ -12992,7 +12991,7 @@ mgr.createDroplist(1523,{ -- droplist_books
 	},
 	entry4 = { --book_food_dryad
 		weightedprob=2,
-		blueprint=1549, 
+		blueprint=1549,
 	},
 	entry5 = { --book_food_fishing
 		weightedprob=2,
@@ -13000,7 +12999,7 @@ mgr.createDroplist(1523,{ -- droplist_books
 	},
 	entry6 = { --book_food_hunting
 		weightedprob=2,
-		blueprint=2314, 
+		blueprint=2314,
 	},
 	entry7 = { --book_food_orcish
 		weightedprob=2,
@@ -13027,9 +13026,9 @@ mgr.createDroplist(1523,{ -- droplist_books
 		blueprint=2309,
 	},
 	entry13 = { --book_guide_orcish
-	--	weightedprob=2,
-	--	blueprint=2310,
-	--},
+		weightedprob=2,
+		blueprint=2310,
+	},
 	entry14 = { --book_guide_prince
 		weightedprob=2,
 		blueprint=2311,
@@ -13066,9 +13065,9 @@ mgr.createDroplist(1523,{ -- droplist_books
 		weightedprob=2,
 		blueprint=2291,
 	},
-	entry23 = { --book_magic_forbidde
+	entry23 = { --book_magic_forbidden
 		weightedprob=2,
-		blueprint=2294,n
+		blueprint=2294,
 	},
 	entry24 = { --book_magic_ice
 		weightedprob=2,
